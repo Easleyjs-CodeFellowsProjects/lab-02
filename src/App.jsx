@@ -1,0 +1,18 @@
+import { useState } from 'react'
+import animals from '../data.json'
+import Header from './Header'
+import Gallery from './Gallery'
+import Footer from './Footer'
+
+function App() {
+  
+  return (
+    <>
+      <Header />
+      <Gallery />
+      <Footer />
+    </>
+  )
+}
+
+export default App
